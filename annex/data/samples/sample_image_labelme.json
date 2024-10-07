@@ -1,0 +1,42 @@
+{
+    "version": "4.5.6",
+    "flags": {},
+    "shapes": [
+        {
+            "label": "rectangle",
+            "points": [
+                [
+                    150,
+                    100
+                ],
+                [
+                    300,
+                    250
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "rectangle",
+            "flags": {}
+        },
+        {
+            "label": "circle",
+            "points": [
+                [
+                    400,
+                    150
+                ],
+                [
+                    500,
+                    300
+                ]
+            ],
+            "group_id": null,
+            "shape_type": "circle",
+            "flags": {}
+        }
+    ],
+    "imagePath": "sample_image.jpg",
+    "imageData": null,
+    "imageHeight": 480,
+    "imageWidth": 640
+}

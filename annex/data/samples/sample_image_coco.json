@@ -1,0 +1,50 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "file_name": "sample_image.jpg",
+            "width": 640,
+            "height": 480
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [
+                150,
+                100,
+                150,
+                150
+            ],
+            "area": 22500,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 1,
+            "category_id": 2,
+            "bbox": [
+                400,
+                150,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "rectangle",
+            "supercategory": "shape"
+        },
+        {
+            "id": 2,
+            "name": "circle",
+            "supercategory": "shape"
+        }
+    ]
+}
